@@ -1,3 +1,5 @@
 # tieba
-scrapy test 
+
 crawl baidu/tieba
+number of pages can be specified
+
