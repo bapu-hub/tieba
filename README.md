@@ -1,5 +1,11 @@
-# tieba
+# Baidu/tieba  
+python3   scrapy 
 
-crawl baidu/tieba
-number of pages can be specified
+download some information on baidu/tieba   
+ 
+number of pages can be specified 
+
+
+
+
 
