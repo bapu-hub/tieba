@@ -32,7 +32,7 @@ class XiaohuaSpider(scrapy.Spider):
             yield item
         #下一页
         next_part_url= newresponse.xpath('//*[@id="frs_list_pager"]/a[contains(text(),"下一页>")]/@href').get()
-        # 主要还有下一页就进行请求
+        # 只要还有下一页就进行请求
         if next_part_url!=None:
             next_url='https:'+next_part_url
             yield scrapy.Request(url=next_url,callback=self.parse)
